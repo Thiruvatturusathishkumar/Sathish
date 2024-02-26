@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kerala tourism.org</title>
+    
+</head>
+<style>
+    body {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #000102;
+        color: #f7f4f4;
+        padding: 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    input[type="text"] {
+        padding: 5px;
+        border: none;
+        border-radius: 3px;
+        margin-top: 10px;
+    }
+    .Experience-Kerala{
+        font-size: 200%;
+        font-weight: bold;
+        font-style:italic;
+        color: #f9fafc;
+        background-image: url(https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg);
+    }
+    .Experience{
+        background-color: #dce0e0;
+        text-align: center;
+    }
+    .img2{
+        padding: 2%;
+       text-align: center;
+       width: 90%;
+       height: 70%;
+    }
+    .menu-section{
+  background-color: #f1f1f1;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(192, 212, 231);
+  justify-content: center;
+    }
+    .one{
+        margin-left: 20px;
+        font-size: medium;
+    }
+    .image-section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .image {
+  border: 1px solid #0e0d0d;
+  border-radius: 4px;
+  padding: 5px;
+    }
+    .FIND{
+        font-size: 200%;
+        font-weight: bold;
+        font-style:italic;
+        color: #ffffff;
+        background-color: #660505;
+        text-align: center;
+       
+        
+    }
+    .FIND1{
+       justify-content: center;
+        text-align: center;
+
+    }
+    .dest{
+        font-style: inherit;
+        color: #0a1e63;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size:xx-large;
+    }
+    .img2{
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+    }
+    .sath{
+        text-align: right;
+        margin-left:200px ;
+    }
+    .munnarp{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: right;
+        padding: 30px;   
+    }
+    .munnarimg{
+        width: 40vw;
+    }
+    .munnarh{
+        text-align: center;
+        color: #b11212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       
+    }
+    .img3{
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+    }
+    .munnarh1{
+        text-align: center;
+        color: #b11212;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .img4{
+        width: 40vw;
+    }
+    .mimg4{
+        width: 40vw;
+    }
+   
+    .alappuzhah{
+        text-align: center;
+        color: #9b0a0a;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          
+    }
+    .alappuzhap{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: right;
+        padding: 20px;
+
+    }
+    .imagethree{
+        width: 40vw;
+       
+    }
+    .img5{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .thiruh{
+        text-align: center;
+        color: #970a0a;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    }
+    .thirup{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: right;
+        padding: 30px; 
+    }
+    .thiruimg{
+        width: 40vw;
+    }
+     .img6{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+     }
+     .guruimg{
+        width: 40vw; 
+     }
+     .Guruvayurh{
+        text-align: center;
+        color: #970a0a;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+     }
+     .Guruvayurp{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: right;
+        padding: 30px; 
+     }
+     .img8{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+     }
+      .Thrissurh{
+        text-align: center;
+        color: #970a0a;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+      }
+      .Thrissurp{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: right;
+        padding: 30px; 
+      }
+     .img9{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+     }
+     .Thrissureimg{
+        width: 40vw;   
+     }
+     .Poovarh{
+        text-align: center;
+        color: #970a0a;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+     }
+     .Poovarp{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: right;
+        padding: 30px;   
+     }
+     .img11{
+        display: flex;
+        flex-direction: row;
+        text-align: center; 
+     }
+     .poovarimg{
+        width: 40vw;  
+     }
+     .Kozhikodeh{
+        text-align: center;
+        color: #970a0a;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+     }
+     .Kozhikodep{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: right;
+        padding: 30px;   
+     }
+     .Kozhikodeimg{
+        width: 40vw;   
+     }
+     .img12{
+        display: flex;
+        flex-direction: row;
+        text-align: center;  
+     }
+     .container-full{
+      background-image: url(https://png.pngtree.com/background/20230614/original/pngtree-landscape-hd-wallpaper-backgrounds-best-wallpaper-picture-image_3537443.jpg);
+      background-size: cover;
+
+     }
+     .things{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+     }
+     .type1 {
+    margin: 5px;
+    border-radius: 15px;
+    width: 27vw
+     }
+     .things-head{
+        text-align: center;
+        color: #f6f6f7;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 300%;
+
+     }
+     .text1{
+        text-align: center;
+     }
+     .things-place{
+        color: #080808;
+     }
+     .new1{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: #6b1d06;
+     }
+     .new2{
+        text-align: center;
+        color: #0e35b6bb;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     .new3{
+        text-align: center;
+        color: #100646e5;
+     }
+     .new4{
+        text-align: center;
+        font-size: x-large;
+        color: #000000c2;
+     }
+     .keep{
+        margin-left: 20%;
+     }
+
+     ul {
+display: flex;
+list-style: none;
+margin-top: 100px;
+margin-left: 40px;
+}
+
+li {
+  margin-right: 15px;
+}
+
+a {
+padding: 8px 15px;
+color: #f3dbdb;
+text-decoration: none;
+}
+
+li:hover a {
+background: #1d0daf;
+border-radius: 5px;
+
+}
+.icon{
+    width: 15%;
+    height: 25%;
+    border-radius: 70px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #021d3f;
+    color: #c2baba;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.menu1{
+    margin-left: 100px;
+}
+.copyrights{
+    background-color: #021d3f;
+    color: #c2baba;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+</style>
+<body>
+
+    <header>
+        <img src="https://dc-cdn.s3-ap-southeast-1.amazonaws.com/dc-Cover-ubjpjv0ln7hm7hbnjet71vgnr4-20160314060319.Medi.jpeg" class="icon">
+        <div class="keep">
+        <h1>Keralatourism.org</h1>
+        <p>Welcome to God's Own country</p>
+        <input type="text" placeholder="Search...">
+    </div>
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li> 
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="menu-section">
+        <h3 class="one">EXPERIENCE KERALA</h3>
+        <h3 class="one">WHERE TO GO</h3>
+        <h3 class="one">WHERE TO STAY</h3>
+        <h3 class="one">THINGS TO DO</h3>
+         <h3 class="one">PLAN YOUR TRIP</h3>
+        <h3 class="one">TRAVEL CARE</h3>
+         <h3 class="one">E BROCHURES</h3>
+        <h3 class="one">E NEWSLETTER</h3>
+    </div>
+    <img src="https://www.keralatourism.org/images/banner/medium_desktop/caravan-1920x6502.jpg">
+    <img src="https://www.keralatourism.org/images/ktm-banner-may-desktop.jpg?d=030120231239" class="img2">
+    <div class="Experience">
+            <h1 class="Experience-Kerala">Experience Kerala</h1>   
+    </div>
+    <div class="image-section">
+        <img src="https://www.keralatourism.org/images/homecontentimage/desktop/yoga5.jpg" class="image" width="20%" height="30%" style="margin-left:10px">
+        <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Theyyam2.jpg" class="image" width="20%" height="30%" style="margin-left:10px">
+        <img src="https://www.keralatourism.org/images/homecontentimage/desktop/judaisam13.jpg" class="image" width="20%" height="30%" style="margin-left:10px">
+        <img src="https://www.keralatourism.org/images/homecontentimage/desktop/ecotourism.jpg" class="image" width="20%" height="30%" style="margin-left:10px">
+    </div>
+    <div class="FIND1">
+        <h1 class="FIND">FIND MORE EXPERIENCE</h1> 
+        <h2 class="dest">TOP DESTINATIONS</h2>  
+</div>
+<div class="img2">
+    <img src="https://somatheeram-c3c5.kxcdn.com/wp-content/uploads/2019/03/Somatheeram-Kerala-roundtrip-Munnnar-min.jpg"class="munnarimg">
+    <div class="munnar1">
+    <h1 class="munnarh">MUNNAR</h1>
+    <p class="munnarp">Yet another gorgeous hill station in the lap of the fascinating Western Ghats, Munnar needs no introduction. Rising 1,600m above the sea level, a vacation in the beguiling locales of this hilly retreat is all about the lofty clouds, picturesque mountains, rolling hills, and a soothing ambience.
+
+        Canopied mostly by never-ending tea plantations and lush forests, you simply cannot miss out Munnar while searching for the best tourist destination in Kerala. Be it during the summer or the winter, monsoon or the spring, Munnar will always make you crave for more!</p>
+    </div></div>
+    <div class="img3">
+        <div>
+        <h1 class="munnarh1">KOCHI</h1>
+        <p class="munnarp">Kochi or Cochin is a unique placein God’s Own Country that is perfectly blended with cultural values and modern ideas! Fondly called the ‘Queen of the Arabian Sea’, this imposing port-city has always been an attraction point since the beginning of history.
+
+            A melting point of numerous culture and traditions, Cochin has embraced all the modern outlook to become one of the most developed metropolis in India. Be it the essence of the Dutch establishments, British history, Chinese nets, or the traditional spice markets, Cochin will surely make you fall in love once again!</p>
+    </div>
+        <div class="img4">
+     <img src="https://www.assureshift.in/sites/default/files/images/blog/pros-and-cons-of-moving-to-kochi.jpg" class="mimg4">
+</div></div>
+<div class="img5">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Alappuzha_Boat_Beauty_W.jpg"class="imagethree">
+    <div class="alappuzha">
+    <h1 class="alappuzhah">ALAPPUZHA</h1>
+    <p class="alappuzhap">There is the whole of Kerala in one side, and then there is this heavenly tourist destination called Alappuzha or Alleppey! Esteemed as the ‘Backwater Capital of India’ or the ‘Venice of the East’, Alleppey is known for its silent backwaters and bountiful beauty!
+
+        Seated on the banks of the azure Vembanad Lake, it is in fact one of the most popular backwater destinations in Kerala and one of the highest sought-aftertourist places in Kerala. Visit this paradise; enjoy houseboat cruise and stay, village walks, Ayurvedic therapies and lot more!</p>
+    </div></div>
+    <div class="img6">
+        <div>
+        <h1 class="thiruh">THIRUVANANTHAPURAM</h1>
+        <p class="thirup">The capital city of God’s Own Country, Thiruvananthapuram or Trivandrum, or the ‘Evergreen City of India’ is also the largest city in the state. Located at the south-western edge of Kerala, this city is the perfect example of how rural life gets mixed with the contemporary way of living.
+
+            Dotted with numerous tourist spots, places of historical importance, scenic beaches, and much more, Trivandrum is a true treasure trove among visitors from all the walks of life. Rated as one of the finest Indian cities to live in, Thiruvananthapuram can also be called the ‘Economic Capital’ of Kerala.</p>
+    </div>
+        <div class="img7">
+     <img src="https://deih43ym53wif.cloudfront.net/thiruvananthapuram-india-shutterstock_498424870_54ec620099.jpeg" class="thiruimg">
+</div></div>
+<div class="img8">
+    <img src="https://www.ekeralatourism.net/wp-content/uploads/2018/03/Guruvayur.jpg"class="guruimg">
+    <div class="Guruvayur">
+    <h1 class="Guruvayurh">GURUVAYUR</h1>
+    <p class="Guruvayurp">Home to the Guruvayur Sri Krishna Temple – fourth largest Hindu temple in India, Guruvayur has many legends. One of them states that this temple town was chosen by Lord Krishna to ensconce His Dwarka temple. On the wish of the Lord, Vayu Deva along with Brhaspati reinstated Lord Krishna’s statue in the sacred Guruvayur Temple. Today, a large number of devotees visit this holy temple on a daily basis.
+
+        The venue ground for festivals like Guruvayur Ekadasi and ChembaiSangeetholsavam, Guruvayur is also known for its magnificent charm and appeal. A sought-after destination among the seclusion lovers, it is still resonates the untouched beauty of God’s Own Country.</p>
+    </div></div>
+    <div class="img9">
+        <div>
+        <h1 class="Thrissurh">THRISSUR</h1>
+        <p class="Thrissurp">If you are a cultural fan or enthusiastic about the rich traditions of Kerala, Thrissur should be ranked as #1 in your travelogue! Also called ‘Trichur’, this city was once the capital of Kingdom of Cochin, and is fondly called the ‘Cultural Capital of Kerala’.
+
+            Being edged with a number of scared temples and other religious spots, Thrissur serves as an important pilgrimage among the Hindu devotees. Yes, this city is the venue ground of the famous ‘Temple Festival’ or the ‘Thrissur Pooram’ that is known and participated by devotees from across the globe.
+            
+            Visit the city during this festival, and you will find the entire Trichur uniting and celebrating the festival with high vigour and equal gusto!</p>
+    </div>
+        <div class="img10">
+     <img src="https://www.ekeralatourism.net/wp-content/uploads/2018/03/Thrissur.jpg" class="Thrissureimg">
+</div></div>
+<div class="img11">
+    <img src="https://www.ekeralatourism.net/wp-content/uploads/2018/03/Poovar.jpg"class="poovarimg">
+    <div class="Poovar">
+    <h1 class="Poovarh">POOVAR</h1>
+    <p class="Poovarp">While in the Poovar Beach, you can witness one of the rarest phenomenon in the world. It is in this scenic beach, where the sea meets a river and a lake. Well, this is not it! Poovar estuary is also serves as the confluence ground of the beach and land!
+
+        A quintessential display of exotic flora and fauna, this beach portrays much of traditional ways of coastal living where fishing plays an important part of daily life. Situated around 12km from Kovalam, Poovar Beach has gained immense popularity as a popular picnic spots among the beach lovers and other types of visitors.
+        
+        You may also like: Most Scenic Beaches in Kerala</p>
+    </div></div>
+    <div class="img12">
+        <div>
+        <h1 class="Kozhikodeh">KOZHIKODE</h1>
+        <p class="Kozhikodep">You won’t be wrong if you call this metropolis as the ‘City of Spices’, ‘City of Truth’ or the ‘City of Sculptures’. Well, all these synonyms are hardly enough to describe the aura and essence of Kozhikode or Calicut! This kaleidoscopic city is much more than a tourist destination.
+
+            Located on the Malabar Coast, Kozhikode or Calicut is esteemed as one of the diverse and best places to visit in Kerala. Dotted with an array of historical landmarks, tourist spots and attractions, this wonderful city is also a lively reminiscent of the Dutch and British eras in India.</p>
+    </div>
+        <div class="img13">
+     <img src="https://www.ekeralatourism.net/wp-content/uploads/2018/03/Thrissur.jpg" class="Kozhikodeimg">
+</div></div>
+
+<div class="container-full">
+    <h2 class="things-head">Things to do in Kerala</h2>
+    <div class="things">
+        <div class="things-place">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Screw-Pine-Weaving1.jpg" class="type1" />
+            <h4 class="text1">Responsible Tourism</h4>
+        </div>
+        <div class="things-place">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/ayurveda6.jpg" class="type1" />
+            <h4 class="text1">Ayurveda</h4>
+        </div>
+        <div class="things-place">
+            <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Paragliding.jpg" class="type1" />
+            <h4 class="text1">Paragliding</h4>
+        </div>
+    </div>
+        <div class="things">
+            <div class="things-place">
+                <img src="https://www.keralatourism.org/images/homecontentimage/desktop/A-Journey-through-the-Forest.jpg" class="type1" />
+                <h4 class="text1">A Journey through the Forest</h4>
+            </div>
+            <div class="things-place">
+                <img src="https://www.keralatourism.org/images/homecontentimage/desktop/scuba-diving1.jpg" class="type1" />
+                <h4 class="text1">Scuba Diving</h4>
+            </div>
+            <div class="things-place">
+                <img src="https://www.keralatourism.org/images/homecontentimage/desktop/Hiking.jpg" class="type1" />
+                <h4 class="text1">Hiking</h4>
+            </div>
+    </div> </div>
+       <div>
+        <h1 class="new1">What's New</h1>
+        <p class="new2">Tourism department to select candidates for the post of Lifeguard Chief Coordinator on a daily wage basis in Thiruvananthapuram district Kerala Tourism invites applications from lifeguards at various beaches in Kollam and Kozhikode Kerala Travel Mart 2024 Buyer Registration | Register Now
+            Domestic Partnership Meets 2023-24 | Register Now </p>
+       </div>
+       <div>
+        <h1 class="new3">Tour Packages</h1>
+        <p class="new4">STOP. Breathe. Slow down. Embrace life. It’s time for Kerala!
+            Plan your trip with amazing offers and packages.</p>
+       </div>
+        
+
+
+       <div class="footer">
+        <menu class="menu1">
+            <Li type="circle">Explore</Li>
+            <Li type="circle">Classification Schemes</Li>
+            <Li type="circle">Governmental Affairs</Li>
+            <Li type="circle">Media Room</Li>
+            <Li type="circle">Tourism Events</Li>
+        </menu>
+        <menu class="menu1">
+            <Li type="disc">Travel Hub</Li>
+            <Li type="disc">Kerala at a Glance</Li>
+            <Li type="disc">Travel Care</Li>
+            <Li type="disc">Where to Stay</Li>
+            <Li type="disc">How to?</Li>
+        </menu>
+        <menu class="menu1">
+            <Li type="square">Nature</Li>
+            <Li type="square">Hills</Li>
+            <Li type="square">Backwaters</Li>
+            <Li type="square">Beaches</Li>
+            <Li type="square">Waterfalls</Li>
+        </menu>
+        <menu class="menu1">
+            <Li type="disc">Places</Li>
+            <Li type="disc">Munnar</Li>
+            <Li type="disc">Kovalam</Li>
+            <Li type="disc">Wayanad</Li>
+            <Li type="disc">Periyar</Li>
+        </menu>
+        
+       </div>
+       <p class="copyrights">Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033
+        <br>Phone: +91 471 23211, Fax: +91 471 2322279, E-mail: info@keralatourism.org.<br>
+        All rights reserved © Kerala Tourism 2024. Copyright | Terms of Use | Cookie Policy | Contact Us.
+        <br>Developed & Maintained by Invis.</p>
+
+
+
+</body>
+</html>
